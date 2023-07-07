@@ -48,10 +48,44 @@
             </div>
         </div>
     </nav>
-    <div class="container p-5">
+    <div class="container mt-5">
 
-        <div class="position-absolute top-50 start-50 d-block text-center">
-            <a href="passagens.php"> <button type="button" class="btn btn-primary">Ver passagens</button></a>
+        <div class="listaPassagem" id="listagemPassagem">
+            <h1 class="text-white text-center">Passagens</h1>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Número ID</th>
+                        <th scope="col">Origem</th>
+                        <th scope="col">Destino</th>
+                        <th scope="col">Horário</th>
+                        <th scope="col">Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>XXX</td>
+                        <td>XXXX</td>
+                        <td>XXXX</td>
+                        <td class="bg-success text-center text-white fw-bold">COMPRAR</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>XXXX</td>
+                        <td>XXXX</td>
+                        <td>XXX</td>
+                        <td class="bg-success text-center text-white fw-bold">COMPRAR</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td >XXXXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td class="bg-success text-center text-white fw-bold">COMPRAR</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
     </div>
