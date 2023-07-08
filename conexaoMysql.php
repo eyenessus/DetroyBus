@@ -1,5 +1,6 @@
 <?php
-class conexaoBanco
+
+class ConexaoMysql
 {
     public $conexao;
     private $server = 'localhost';
@@ -10,6 +11,7 @@ class conexaoBanco
     public function __construct()
     {
         $this->conexao = mysqli_connect($this->server, $this->username, $this->password, $this->database);
+        
         if ($this->conexao->error) {
             echo 'error de conexão';
         } else {

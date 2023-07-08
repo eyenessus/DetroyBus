@@ -10,7 +10,7 @@
 </head>
 
 <body class="inicio">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg " style="background-color: #e3f2fd;">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">DetroyBus</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@
                         <a class="nav-link active" aria-current="page" href="index.php">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="passagens.php">Passagems</a>
+                        <a class="nav-link" href="./paginas/passagens.php">Passagems</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,9 +49,9 @@
         </div>
     </nav>
     <div class="container p-5">
-            <h1 class="text-center text-white mt-5">DetroyBus</h1>
+            <h1 class="text-center text-white mt-5 display-1" id="titulo">DetroyBus</h1>
         <div class="d-block text-center mt-5">
-            <a href="passagens.php"> <button type="button" class="btn btn-primary">Ver passagens</button></a>
+            <a href="./paginas/passagens.php"> <button type="button" class="btn btn-primary">Ver passagens</button></a>
         </div>
 
     </div>
