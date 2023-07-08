@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="passagens">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">DetroyBus</a>
@@ -22,7 +22,7 @@
                         <a class="nav-link active" aria-current="page" href="index.php">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Passagems</a>
+                        <a class="nav-link" href="passagens.php">Passagems</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -59,6 +59,7 @@
                         <th scope="col">Origem</th>
                         <th scope="col">Destino</th>
                         <th scope="col">Horário</th>
+                        <th scope="col">Valor</th>
                         <th scope="col">Ação</th>
                     </tr>
                 </thead>
@@ -68,21 +69,24 @@
                         <td>XXX</td>
                         <td>XXXX</td>
                         <td>XXXX</td>
-                        <td class="bg-success text-center text-white fw-bold">COMPRAR</td>
+                        <td>XXXX</td>
+                        <td class=" text-white fw-bold"><a href="http://" class="text-success">COMPRAR</a></td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
                         <td>XXXX</td>
                         <td>XXXX</td>
+                        <td>XXXX</td>
                         <td>XXX</td>
-                        <td class="bg-success text-center text-white fw-bold">COMPRAR</td>
+                        <td class=" text-white fw-bold"><a href="http://" class="text-success">COMPRAR</a></td>
                     </tr>
                     <tr>
                         <th scope="row">3</th>
-                        <td >XXXXX</td>
+                        <td>XXXXX</td>
                         <td>XXX</td>
                         <td>XXX</td>
-                        <td class="bg-success text-center text-white fw-bold">COMPRAR</td>
+                        <td>XXX</td>
+                        <td class=" text-white fw-bold"><a href="http://" class="text-success">COMPRAR</a></td>
                     </tr>
                 </tbody>
             </table>

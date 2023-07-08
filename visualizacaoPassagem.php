@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="inicio">
+<body class="passagens">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">DetroyBus</a>
@@ -48,12 +48,42 @@
             </div>
         </div>
     </nav>
-    <div class="container p-5">
-            <h1 class="text-center text-white mt-5">DetroyBus</h1>
-        <div class="d-block text-center mt-5">
-            <a href="passagens.php"> <button type="button" class="btn btn-primary">Ver passagens</button></a>
-        </div>
+    <div class="container mt-5">
 
+        <div class="listaPassagem" id="listagemPassagem">
+            <h1 class="text-white text-center">Passagem</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Empresa</th>
+                        <th scope="col">Classe</th>
+                        <th scope="col">Tipo</th>
+                        <th scope="col">Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th colspan="1">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>Otto</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Origem</th>
+                        <td>Jacob</td>
+                        <td colspan="2">Destino</td>
+                       
+                    </tr>
+                    <tr>
+                        <th scope="row">Tempo</th>
+                        <td colspan="2">15h 2d</td>
+                        <td class=" text-white fw-bold"><a href="http://" class="text-success">COMPRAR</a></td>
+                    </tr>
+                </tbody>
+            </table>
+          
+        </div>
+     
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
