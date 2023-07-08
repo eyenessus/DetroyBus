@@ -6,26 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DetroyBus</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../Estilos/style.css">
 </head>
-
-<?php
-include_once('../Cliente.php');
-$cliente = new Cliente();
-$cliente->excluirCliente();
-?>
 
 <body class="passagens">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.php">DetroyBus</a>
+            <a class="navbar-brand" href="../../index.php">DetroyBus</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.php">Início</a>
+                        <a class="nav-link active" aria-current="page" href="../../index.php">Início</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="passagens.php">Passagems</a>
@@ -57,37 +51,45 @@ $cliente->excluirCliente();
     <div class="container mt-5">
 
         <div class="listaPassagem" id="listagemPassagem">
-            <h1 class="text-white text-center">Passagem</h1>
-            <table class="table">
+            <h1 class="text-white text-center">Passagens</h1>
+            <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th scope="col">Empresa</th>
-                        <th scope="col">Classe</th>
-                        <th scope="col">Tipo</th>
+                        <th scope="col">Número ID</th>
+                        <th scope="col">Origem</th>
+                        <th scope="col">Destino</th>
+                        <th scope="col">Horário</th>
                         <th scope="col">Valor</th>
+                        <th scope="col">Ação</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th colspan="1">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>Otto</td>
+                        <th scope="row">1</th>
+                        <td>XXX</td>
+                        <td>XXXX</td>
+                        <td>XXXX</td>
+                        <td>XXXX</td>
+                        <td class=" text-white fw-bold"><a href="http://" class="text-success">COMPRAR</a></td>
                     </tr>
                     <tr>
-                        <th scope="row">Origem</th>
-                        <td>Jacob</td>
-                        <td colspan="2">Destino</td>
-
+                        <th scope="row">2</th>
+                        <td>XXXX</td>
+                        <td>XXXX</td>
+                        <td>XXXX</td>
+                        <td>XXX</td>
+                        <td class=" text-white fw-bold"><a href="http://" class="text-success">COMPRAR</a></td>
                     </tr>
                     <tr>
-                        <th scope="row">Tempo</th>
-                        <td colspan="2">15h 2d</td>
+                        <th scope="row">3</th>
+                        <td>XXXXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
+                        <td>XXX</td>
                         <td class=" text-white fw-bold"><a href="http://" class="text-success">COMPRAR</a></td>
                     </tr>
                 </tbody>
             </table>
-
         </div>
 
     </div>

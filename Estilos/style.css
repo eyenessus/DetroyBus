@@ -1,13 +1,22 @@
 .inicio {
-    background-image: url('./img/inicio.webp');
+    background-image: url('../img/inicio.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
     background-attachment: fixed;
 }
+
 .passagens{
-    background-image: url('./img/passagens.jpg');
+    background-image: url('../img/passagens.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cadastroCliente{
+    background-image: url('../img/passagens.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
